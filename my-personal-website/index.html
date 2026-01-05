@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!-- 元信息：字符编码、视口适配（移动端） -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入CSS样式文件 -->
+    <link rel="stylesheet" href="style.css">
+    <title>我的个人网站</title>
+</head>
+<body>
+    <!-- 头部：导航栏 -->
+    <header class="header">
+        <nav>
+            <a href="./index.html" class="active">首页</a>
+            <a href="人生信条.html">关于我</a>
+        </nav>
+    </header>
+
+    <!-- 主体内容 -->
+    <main class="main">
+        <div class="profile">
+            <h1>奔赴</h1>
+            <p>前端爱好者 | 计算机专业</p>
+            <button id="btn">点击查看我的技能</button>
+            <div id="skill-box" class="hidden">
+                <ul>
+                    <li>HTML/CSS基础</li>
+                    <li>JavaScript简单交互</li>
+                    <li>办公软件熟练</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- 底部 -->
+    <footer class="footer">
+        <p>© 2025 我的个人网站 | 联系方式：123456789@qq.com</p>
+    </footer>
+
+    <!-- 引入JavaScript文件（放最后，确保DOM加载完成） -->
+    <script src="main.js"></script>
+</body>
+</html>
